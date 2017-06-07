@@ -6,7 +6,6 @@ var proxyquire = require('proxyquire')
 test('linux', function (t) {
   var pwd = proxyquire('./', {
     'global/process': {
-      platform: 'darwin',
       env: {
         PWD: '/you/are/here'
       }
@@ -21,15 +20,10 @@ test('linux', function (t) {
 test('windows', function (t) {
   var pwd = proxyquire('./', {
     'global/process': {
-      platform: 'win32'
-    },
-    child_process: {
-      execFileSync: function (command, args, options) {
-        t.equal(command, 'cd')
-        t.notOk(args)
-        t.deepEqual(options, {encoding: 'utf8'})
-        return '/you/are/here/win'
-      }
+      env: {
+        PWD: undefined
+      },
+      cwd: () => '/you/are/here/win'
     }
   })
 

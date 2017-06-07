@@ -8,6 +8,6 @@ module.exports = pwd
 
 function pwd () {
   return windows
-    ? child.execFileSync('cd', null, {encoding: 'utf8'}).trim()
+    ? child.execFileSync('cd', undefined, {encoding: 'utf8'}).trim()
     : process.env.PWD
 }

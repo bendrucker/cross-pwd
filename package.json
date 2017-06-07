@@ -1,7 +1,7 @@
 {
   "name": "cross-pwd",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cross platform pwd (pathname of the current working directory)",
   "license": "MIT",
   "repository": "bendrucker/",

@@ -1,0 +1,39 @@
+{
+  "name": "cross-pwd",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Cross platform pwd (pathname of the current working directory)",
+  "license": "MIT",
+  "repository": "bendrucker/",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "pwd",
+    "cross",
+    "platform",
+    "unix",
+    "windows",
+    "pathname",
+    "working",
+    "directory",
+    "cwd"
+  ],
+  "devDependencies": {
+    "proxyquire": "~1.8.0",
+    "standard": "^7.0.0",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "dependencies": {
+    "global": "~4.3.2"
+  }
+}

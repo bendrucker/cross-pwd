@@ -1,4 +1,4 @@
-#  [![Build Status](https://travis-ci.org/bendrucker/.svg?branch=master)](https://travis-ci.org/bendrucker/)
+#  [![Build Status](https://travis-ci.org/bendrucker/.svg?branch=master)](https://travis-ci.org/bendrucker/) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/cross-pwd.svg)](https://greenkeeper.io/)
 
 > Cross platform `PWD` (pathname of the current working directory)
 

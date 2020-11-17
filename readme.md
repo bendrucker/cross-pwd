@@ -1,4 +1,4 @@
-#  [![tests](https://github.com/bendrucker/cross-pwd/workflows/tests/badge.svg)](https://github.com/bendrucker/cross-pwd/actions?query=workflow%3Atests)
+# cross-pwd [![tests](https://github.com/bendrucker/cross-pwd/workflows/tests/badge.svg)](https://github.com/bendrucker/cross-pwd/actions?query=workflow%3Atests)
 
 > Cross platform `PWD` (pathname of the current working directory)
 

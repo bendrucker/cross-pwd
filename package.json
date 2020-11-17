@@ -25,15 +25,15 @@
     "cwd"
   ],
   "devDependencies": {
-    "proxyquire": "~2.1.0",
-    "standard": "^14.0.0",
-    "tape": "^4.0.0"
+    "proxyquire": "~2.1.3",
+    "standard": "^16.0.2",
+    "tape": "^5.0.1"
   },
   "files": [
     "index.js",
     "test.js"
   ],
   "dependencies": {
-    "global": "~4.3.2"
+    "global": "~4.4.0"
   }
 }
